@@ -1,0 +1,16 @@
+{
+  "name": "nodejs-aws-ecs-fargate",
+  "version": "1.0.0",
+  "description": "A demo repo for running Node.js on AWS ECS Fargate (serverless)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.0.1"
+  }
+}
