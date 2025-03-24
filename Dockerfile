@@ -19,5 +19,5 @@ COPY --from=build /srv .
 ADD . .
 
 # Specify the command to run when launching the container
-EXPOSE 80
+EXPOSE 3000
 CMD ["node", "index.js"]
